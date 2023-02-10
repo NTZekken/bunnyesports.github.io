@@ -1,0 +1,116 @@
+body{
+    background: white;
+    background-size: cover;
+    margin: 0;
+}
+
+.nav-container {
+    height: 80px;
+    background-color:#0b84c0;
+}
+
+.nav-container a {
+    display: flex;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+    height: 15px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: transform 100ms;
+}
+
+.nav-container .nav_split:hover {
+    background-color: #fff;
+    color: black;
+    transform: scale(1.1);
+}
+
+a.split{
+    margin-left: 30px;
+    margin-top: -101px;
+}
+
+a.split:hover{
+    background-color: #0b84c0;
+    margin-left: 30px;
+
+}
+
+i {
+    padding-right: 6px;
+}
+
+.nav-container a.split {
+    display: flex;
+    float: left;
+    padding: 0;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    background-color: #0b84c071;
+    bottom: 0;
+}
+
+hr{
+    height: 1px;
+    background-color: #ffc3c3;
+    border: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content_container{
+    background: white;
+    background-size: cover;
+}
+
+.title {
+    margin-left: 10%;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: .5em;
+    letter-spacing: .3em;
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+}
+
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #005077;
+    line-height: 1.7em;
+    letter-spacing: .12em;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content_1{
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.4em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.content_2{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0em;
+    line-height: 1.8em;
+    text-transform: none;
+    color: #0e181b;
+}

@@ -1,5 +1,5 @@
 body{
-    background-color: #ffffff;
+    background-color: #fff;
     background-size: cover;
     margin: 0;
 }
@@ -51,24 +51,12 @@ i {
 }
 
 .footer{
-    position: absolute;
-    bottom: 0;
+    position: flex;
+    height: 50px;
     width: 100%;
     text-align: center;
     font-size: 13px;
     background-color: #0b84c0;
-}
-
-.content {
-    margin-inline: auto;
-    text-align: center;
-    max-width: 20rem;
-}
-
-.partner_container{
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
 }
 
 hr{
@@ -79,38 +67,28 @@ hr{
     margin-right: 10%;
 }
 
-.content {
-    margin-inline: auto;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 0.5em;
-    letter-spacing: .04em;
-    font-family: 'Russo One', sans-serif;
+.info_container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #ffffff;
+    width: 60%;
+}
+
+.team_picture{
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(0, 0, 0);
+}
+
+.player_picture{
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.player_info{
     text-align: center;
 }
 
-.partner_container{
-    margin-left: -11%;
-}
-
-.container{
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-}
-
-.container:hover{
-    transform: scale(1.2);
-}
-
-.image_container{
-    padding: auto;
-    margin: auto;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    width: 33.33%;
-}
+  
